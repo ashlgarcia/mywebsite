@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: var(--background-color);
+  font-family: sans-serif;
+}
+
+*/ body {
+  display: block;
+  overflow-x: hidden;
+  background: #eef2fb;
+}
+
+:root {
+  --primary-color: #edf2fc;
+  --secondary-color: #212121;
+  --green: #3C5A14;
+  --light-green: #669D31;
+  --grey-color: #606163;
+  --background-color: #eef2fb;
+}
+
+.dark-theme {
+  --primary-color: #000106;
+  --secondary-color: #ffff;
+  --green: #3C5A14;
+  --light-green: #669D31;
+  --grey-color: #606163;
+  --background-color: #000106;
+}
+
+.logo {
+  border: #3C5A14 4px solid;
+}
+
+nav {
+  padding: 10px;
+  background: var(--background-color) !important;
+  color: var(--secondary-color);
+}
+
+.nav ul li {
+  color: var(--secondary-color);
+  margin: auto 10px;
+  flex: 1;
+}
+
+.nav ul li a {
+  text-align: right;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+}
+
+.nav ul li a:hover {
+  background-color: #3C5A14;
+}
+
+.nav-link {
+  font-size: x-large;
+}
+
+.active {
+  color: darkgreen !important;
+}
+
+li.nav-item a:hover {
+  color: #669D31 !important;
+}
+
+#moon-icon {
+  width: 30px;
+  cursor: pointer;
+  align-items: left;
+  background: var(--background-color) !important;
+  display: inline-block;
+  z-index: 1000;
+}
+
+.dark-mode-icon {
+  width: 25px;
+  cursor: pointer;
+}
+
+.navbar-nav .nav-link {
+  color: var(--secondary-color);
+}
+
+.dark-theme .navbar-nav .nav-link {
+  color: white;
+}
+
+/* Project 10 Fade-In Effect */
+
+.fade {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1.5s ease, transform 1.5s ease;
+}
+
+/* End of Project 10 Fade-In Effect */
+
+.info {
+  padding-left: 8%;
+  padding-top: 15%;
+}
+
+.info h1 {
+  font-size: 70px;
+  color: var(--secondary-color);
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+
+span {
+  color: var(--green);
+}
+
+.info p {
+  color: var(--grey-color);
+  line-height: 22px;
+}
+
+.info a {
+  background: var(--secondary-color);
+  padding: 10px 18px;
+  text-decoration: none;
+  color: var(--primary-color);
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 5px;
+}
+
+.info a:hover {
+  background: var(--green);
+  color: #edf2fc;
+}
+
+button {
+  max-width: 50%;
+  border-radius: 50px !important;
+}
+
+.img-thumbnail {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  background: transparent;
+  border: 0px solid #eef2fb !important;
+  border-radius: 50px;
+}
+
+.d-flex {
+  padding-top: 120px !important;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  padding-left: 20px;
+  padding-right: 100px;
+}
+
+.project-heading{
+  padding: 10px;
+  text-align: center;
+}
+
+.btn{
+  background-color: var(--green);
+  color: #eef2fb !important;
+  border: 2px var(--green);
+}
+
+.btn:hover{
+  color: #000106 !important;
+}
+
+.card-body{
+  color: var(--secondary-color) !important;
+}
+
+.social-links{
+  padding: 40px !important;
+  text-align: center !important;
+  position: relative;
+}
+
+.social-links a{
+  font-size: 30px;
+  color: var(--grey-color);
+  margin-right: 20px;
+}
+
+.social-links a:hover{
+  color: var(--light-green);
+} 
+
+footer {
+  text-align: center;
+}
+
+
+#about-me{
+  padding-top: 20px;
+
+}
+
+.resume-img, .about-img{
+    margin-right: 4px;
+    position: relative;
+    left: 100px !important;
+}
+
+.portfolio-head{
+  padding-top: 100px;
+}
+
+.container-connect {
+    background-color: var(--background-color);
+    padding: 200px;
+    border-radius: 5px;
+    box-shadow: none;
+    padding-top: 100px;
+    color: var(--secondary-color);
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid var(--green);
+    border-radius: 4px;
+    color: var(--secondary-color);
+    text-size-adjust: 50px;
+}
+
+button {
+    background-color: var(--green);
+    color: #eef2fb;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--light-green);
+}
+
+#response {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.resume-format, .about-format{
+  color: var(--secondary-color) !important;
+}
+
+
